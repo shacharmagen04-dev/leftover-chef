@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Leftover Chef",
+    "slug": "leftover-chef",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FAF6EE"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yourcompany.leftoverchef",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Leftover Chef uses your camera to photograph your fridge or pantry so it can suggest recipes from what you already have.",
+        "NSPhotoLibraryUsageDescription": "Leftover Chef needs access to your photos so you can pick an existing photo of your fridge or pantry."
+      }
+    },
+    "android": {
+      "package": "com.yourcompany.leftoverchef",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FAF6EE"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE_WITH_EAS_PROJECT_ID"
+      }
+    }
+  }
+}
