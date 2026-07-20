@@ -4,10 +4,10 @@
     "slug": "leftover-chef",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/IMG_4486.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/IMG_4487.png",
       "resizeMode": "contain",
       "backgroundColor": "#FAF6EE"
     },
@@ -23,7 +23,7 @@
     "android": {
       "package": "com.yourcompany.leftoverchef",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/IMG_4488.png",
         "backgroundColor": "#FAF6EE"
       }
     },
